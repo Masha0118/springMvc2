@@ -50,6 +50,6 @@ public class RequestBodyStringController {
     public String requestBodyStringV4(@RequestBody String messageBody) throws IOException {
 
         log.info("messageBody={}", messageBody);
-        return "ok";
+        return "ok";  
     }
 }
